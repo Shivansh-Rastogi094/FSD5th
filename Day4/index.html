@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
 </head>
 <body>
-    <form action="">
-        Username<input type="text" id="Un"><br>
-        Password<input type="password" id="pass"><br>
-       <input type="button" onclick="validate()" value="Login now">
-       <p id="result"></p>
-    </form>
-    
+    <a href="https://abes.ac.in/">Website</a>
+    <button>Change link</button>
+
+   <button onclick="display()">Click here</button>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <script>
+        // let p1=document.querySelectorAll('p');
+        let p1=document.querySelector('a');
+        let display=()=>{   
+        p1.setAttribute('href', 'https://aktu.ac.in/');
+        p1.innerText ="Aktu website";
+    }
+ 
+    </script>
 </body>
 </html>

@@ -1,0 +1,14 @@
+#disp{
+  background-color: blueviolet;
+  /* color: aliceblue; */
+  border: 5px solid black;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+h1{
+  background-color: bisque;
+  color: black;
+}
